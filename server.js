@@ -6,7 +6,7 @@
 */
 //status
 const devs1 = ['480407581085532180'];
-var prefix = !;
+var prefix = "!";
 client.on('message', message => {
     let argresult = message.content.split(` `).slice(1).join(' ');
     if (message.content.startsWith(prefix + 'setStreaming')) {

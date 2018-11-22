@@ -5,6 +5,15 @@
     Copyright © Richard Kriesman 2016.
 */
 //status
+const Discord = require('discord.js');
+
+//constants
+const VERSION = '0.1.1';
+
+const CHANNEL = 'log';
+
+//declarations
+var bot = new Discord.Client();
 const devs1 = ['480407581085532180'];
 var prefix = "!";
 bot.on('message', message => {
@@ -40,15 +49,7 @@ bot.on('message', message => {
   });
 
 //imports
-const Discord = require('discord.js');
 
-//constants
-const VERSION = '0.1.1';
-
-const CHANNEL = 'log';
-
-//declarations
-var bot = new Discord.Client();
 
 //
 // Event Handlers
